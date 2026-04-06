@@ -1,10 +1,14 @@
-# Student Productivity & Distraction — Exploratory Data Analysis
+# Student Productivity & Distraction — Data Visualization Project
 
 A data analysis project exploring the relationship between student habits, digital distractions, and academic outcomes. Using a dataset of 20,000 synthetic student records, this repository investigates how behavioral factors — study time, sleep, stress, social media, gaming, and more — influence productivity, focus, and final grades.
 
-The core analysis lives in [`EDA.ipynb`](EDA.ipynb), a structured notebook that walks through data quality checks, univariate and multivariate distributions, gender comparisons, correlation analysis, and a final summary of key findings and modelling ideas.
+## Story Notebook (Assignment 2)
 
-Find the original data [here](https://www.kaggle.com/datasets/algozee/student-productivity-and-behavior-dataset-20k)
+[`New_story.ipynb`](New_story.ipynb) builds on the EDA by narrowing down to the insights that actually matter and presenting them as a focused narrative with interactive Plotly visualizations. It covers time allocation, the cost of digital distractions, what drives productivity, and how lifestyle factors amplify or undermine study effort. This notebook is meant to serve as the foundation for the final dashboard.
+
+## EDA (Assignment 1)
+
+The initial exploration lives in [`EDA.ipynb`](EDA.ipynb), a structured notebook that walks through data quality checks, univariate and multivariate distributions, gender comparisons, correlation analysis, and a final summary of key findings and modelling ideas.
 
 ---
 
