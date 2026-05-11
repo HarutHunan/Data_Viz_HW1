@@ -1,0 +1,22 @@
+.card-margin {
+    margin-bottom: 20px;
+}
+
+.kpi-card {
+    text-align: center;
+    padding: 10px;
+}
+
+.kpi-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.kpi-label {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.filter-row {
+    margin-bottom: 15px;
+}
