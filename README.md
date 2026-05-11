@@ -8,8 +8,8 @@ The dashboard lives under [`dashboard/`](dashboard/). It is a multi-page Dash ap
 - [`dashboard/data.py`](dashboard/data.py): Loads `data/student_productivity_distraction_dataset_20000.csv`, adds derived columns (`total_distraction_hours`, sleep/exercise flags, distraction buckets, productivity tiers).
 - Additional pages in [`dashboard/pages/`](dashboard/pages/): 
     * **Overview** (time budget, gender dropdown), 
-    * **Distractions** (scatter + trendline, box plot, phone × social heatmap; color dropdown and sample slider),
-    * **Drivers** (academic and lifestyle correlation bars, sleep × exercise box plot, stress dual-axis lines; outcome dropdown and stress range slider). Charts align with [`story.ipynb`](story.ipynb).
+    * **Distractions** (scatter + trendline, box plot, phone x social heatmap; color dropdown and sample slider),
+    * **Drivers** (academic and lifestyle correlation bars, sleep x exercise box plot, stress dual-axis lines; outcome dropdown and stress range slider). Charts align with [`story.ipynb`](story.ipynb).
 - [`dashboard/assets/styles.css`](dashboard/assets/styles.css): Light spacing helpers for cards.
 
 
@@ -39,7 +39,7 @@ The initial exploration lives in [`EDA.ipynb`](EDA.ipynb), a structured notebook
 ## Dataset
 
 **File:** `data/student_productivity_distraction_dataset_20000.csv`  
-**Records:** 20,000 students × 18 features
+**Records:** 20,000 students x 18 features
 
 | Feature | Description |
 |---|---|
